@@ -1,0 +1,11 @@
+{
+    "github-slug": "silvercommerce/recipe-invoicing",
+    "child-stability-inherit": true,
+    "dependency-constraint": "exact",
+    "vendors": [
+      "silvercommerce"
+    ],
+    "exclude": [
+      "silverstripe/recipe-plugin"
+    ]
+  }

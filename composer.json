@@ -1,0 +1,25 @@
+{
+    "name": "silvercommerce/recipe-catalogue",
+    "type": "silverstripe-recipe",
+    "description": "SilverStripe recipe for product catalogue management",
+    "homepage": "http://silverstripe.org",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "1.*@stable",
+        "silverstripe/recipe-core": "1.*@stable",
+        "silvercommerce/recipe-catalogue": "1.*@dev",
+        "silverstripe/admin": "1.*@stable",
+        "silverstripe/asset-admin": "1.*@stable",
+        "silverstripe/siteconfig": "4.*@stable",
+        "silverstripe/versioned": "1.*@stable",
+        "silvercommerce/orders-admin": "1.*@dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
